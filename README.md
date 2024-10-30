@@ -1,4 +1,4 @@
-![Maintainer](https://img.shields.io/badge/Maintained%20By-cloudfy9-brightgreen) [![Trivy GitHub Action Workflow](https://github.com/cfy9/trivy-action/actions/workflows/main.yaml/badge.svg)](https://github.com/cfy9/trivy-action/actions/workflows/main.yaml) [![Create Release](https://github.com/cfy9/trivy-action/actions/workflows/release.yaml/badge.svg)](https://github.com/cfy9/trivy-action/actions/workflows/release.yaml)
+![Maintainer](https://img.shields.io/badge/Maintained%20By-Anvaya%20Cloud-brightgreen) [![Trivy GitHub Action Workflow](https://github.com/anvayacloud/trivy-action/actions/workflows/main.yaml/badge.svg)](https://github.com/anvayacloud/trivy-action/actions/workflows/main.yaml) [![Create Release](https://github.com/anvayacloud/trivy-action/actions/workflows/release.yaml/badge.svg)](https://github.com/anvayacloud/trivy-action/actions/workflows/release.yaml)
 
 # Introduction
 
@@ -23,7 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Trivy
-      uses: cfy9/trivy-action@main
+      uses: anvayacloud/trivy-action@main
 ```
 
 This action supports the following inputs:
@@ -49,14 +49,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Trivy
-      uses: cfy9/trivy-action@v0.0.2
+      uses: anvayacloud/trivy-action@v0.0.2
       with:
         image_name: nginx
         format: "json"
 ```
 
 ## Contributing
-We would love you to contribute to `@cfy9/trivy-action`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+We would love you to contribute to `@anvayacloud/trivy-action`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
